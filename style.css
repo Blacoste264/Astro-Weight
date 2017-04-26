@@ -1,0 +1,56 @@
+h1 {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  padding: 5%;
+  font-size: 3em;
+  text-shadow: 4px 4px 7px limegreen;
+  color: white;
+  margin-top: -10px;
+}
+
+body {
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+}
+/* Create the oval that surrounds the form */
+#bodyBackground {
+  border: 20px solid black;
+  background: url("image/8b6kDr.jpg");
+  background-size: auto;
+  border-radius: 50%;
+  padding: 30px;
+}
+/* button styling */
+#calculateWeight:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#calculateWeight {
+  padding: 10px 15px;
+  font-size: 2em;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px grey;
+  display: block;
+  margin: auto;
+  width: 40%;
+  margin-top: 5%;
+  background-color: limegreen;
+}
+/* styles button */
+p {
+  margin-top: 5%;
+  font: italic 2em 'Russo One', sans-serif;
+  color: white;
+  text-shadow: 4px 4px 7px limegreen;
+}
+/* Weight and Planet Selector text */
+#fontWeightSelector {
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px black;
+}

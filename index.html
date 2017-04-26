@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Astro Calculator</title>
+
+  <!--Calculator Name!-->
+  <div id="bodyBackground">
+    <h1>Astro-Weight Calculator</h1>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+
+    <!-- Styling Links and CSS file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="fontWeightSelector">
+    <!-- Weight Input -->
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="userWeight">Weight</label>
+        <input type="number" class="form-control" id="userWeight" placeholder="000">
+      </div>
+      <!-- Planet Select -->
+      <div class="form-group">
+        <label for="planetSelect">Planet Selector</label>
+        <select class="form-control" id="planetSelect">
+        <option></option>
+      </select>
+      </div>
+  </div>
+  <!-- Calculate Button -->
+  <button type="button" id="calculateWeight" class="btn btn-primary">Calculate</button>
+  <p id="output"></p>
+  </form>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</div>
+
+</html>
